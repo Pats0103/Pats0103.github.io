@@ -1,13 +1,18 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import 'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css';
+  </style>
 </head>
-<body class="bg-black flex items-center justify-center w-full h-full">
-  <h1 class="text-3xl font-bold font text-violet-500	 ">
-   Re Render Soon ! 
-  </h1>
+<body>
+ <div class="relative w-full h-screen">
+  <video autoplay muted loop class="absolute w-full h-full object-cover">
+    <source src="./vecteezy_animated-looping-modern-gradient-background_7828345.mp4" type="video/mp4">
+  </video>
+  <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center bg-black mix-blend-multiply">
+    <h1 class="text-white text-6xl">Re Render Soon!</h1>
+  </div>
+ </div>
 </body>
 </html>
